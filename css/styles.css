@@ -10,12 +10,8 @@
     --Color-accent:#2196F3;
 }
 
-a:-webkit-any-link {
-    color: var(--Main-color);
-}
-
 a {
-    color: var(--Main-color);
+    color: inherit;
 }
 
 a:visited {
@@ -138,6 +134,7 @@ body {
     font-weight: 700;
     text-decoration: none;
     line-height: 1.19;
+    color: var(--White-color);
 }
 
 .footer-logo:visited {
