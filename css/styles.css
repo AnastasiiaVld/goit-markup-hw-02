@@ -20,6 +20,10 @@
     line-height: 1.17;
 }
 
+a {
+    color: inherit;
+}
+
 a:visited {
     color: var(--Main-color);
 }
