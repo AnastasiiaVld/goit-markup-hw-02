@@ -10,6 +10,18 @@
     --Color-accent:#2196F3;
 }
 
+a:-webkit-any-link {
+    color: var(--Main-color);
+}
+
+a {
+    color: var(--Main-color);
+}
+
+a:visited {
+    color: var(--Main-color);
+}
+
 .list {
     list-style: none;
 }
@@ -18,14 +30,6 @@
     font-size: 36px;
     font-weight: 700;
     line-height: 1.17;
-}
-
-a {
-    color: inherit;
-}
-
-a:visited {
-    color: var(--Main-color);
 }
 
 body {
