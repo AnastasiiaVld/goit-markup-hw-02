@@ -35,6 +35,7 @@ body {
     font-weight: 700;
     text-decoration: none;
     line-height: 0.86;
+    color: var(--Main-color);
 }
 
 .header-logo:visited {
